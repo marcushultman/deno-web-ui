@@ -1,0 +1,24 @@
+{
+  "lock": false,
+  "imports": {
+    "opener": "https://deno.land/x/opener@v1.0.1/mod.ts",
+    "preact": "https://esm.sh/preact@10.19.2",
+    "preact/": "https://esm.sh/preact@10.19.2/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.1.0",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
+  },
+  "fmt": {
+    "options": {
+      "lineWidth": 100,
+      "singleQuote": true
+    }
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  }
+}
